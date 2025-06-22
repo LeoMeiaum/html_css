@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+/*  SELETORES PERSONALIZADOS:
+
+        #   = id
+        .   = class
+        :   = pseudo-cless
+        ::  = pseudo-element
+        >   = clildren
+*/
+
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            background-color: rgba(231, 0, 0, 0.444);
+            color: black;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial::after{
+            content: '[✦]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizandom links</h1>
+    <ul>
+        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwia5_CeurCMAxWglJUCHbyIJ6cQFnoECD4QAQ&url=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F1809540%2FNine_Sols%2F&usg=AOvVaw2nW_5DbV6s8QVE0195Cq3l&opi=89978449" target="_blank" class="especial">Nine Sols</a></li>
+        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjP6a66urCMAxVgupUCHaOuBLkQFnoECDkQAQ&url=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F428550%2FMomodora_Reverie_Under_The_Moonlight%2F&usg=AOvVaw3OqoUcOG5ocxTvhSke9qlO&opi=89978449" target="_blank">Momodosra</a></li>
+        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjx0M_KurCMAxXxq5UCHdShLdAQFnoECEEQAQ&url=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F504230%2FCeleste%2F&usg=AOvVaw1j5qWV3-nrof1iJ8PCz6h_&opi=89978449" target="_blank">Celeste</a></li>
+    </ul>
+</body>
+</html>
